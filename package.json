@@ -9,5 +9,8 @@
   "devDependencies": {
     "@playwright/test": "^1.22.2"
   },
-  "scripts": {}
+  "scripts": {
+    "test:e2e": "playwright test",
+    "test:e2e:setup": "playwright install-deps chromium"
+  }
 }
