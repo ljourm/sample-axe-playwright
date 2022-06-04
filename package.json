@@ -5,5 +5,9 @@
   "repository": "git@github.com:ljourm/sample-axe-playwright.git",
   "author": "ljourm <ljourm@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@playwright/test": "^1.22.2"
+  },
+  "scripts": {}
 }
